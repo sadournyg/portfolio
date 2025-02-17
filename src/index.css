@@ -11,13 +11,13 @@ h2 {
   @apply text-xl md:text-4xl;
 }
 
-/* p {
+p {
   @apply text-xl tracking-tight leading-relaxed;
-} */
+}
 
-/* span {
+span {
   @apply text-purple-600;
-} */
+}
 
 .shiny-effect {
   position: absolute;
@@ -25,4 +25,8 @@ h2 {
   pointer-events: none;
   z-index: 1;
   background: radial-gradient(circle, rgba(178, 19, 202, 0.2), transparent 70%);
+}
+
+.bg-primary-color {
+  @apply bg-purple-600;
 }
