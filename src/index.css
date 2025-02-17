@@ -11,13 +11,13 @@ h2 {
   @apply text-xl md:text-4xl;
 }
 
-p {
+/* p {
   @apply text-xl tracking-tight leading-relaxed;
-}
+} */
 
-span {
+/* span {
   @apply text-purple-600;
-}
+} */
 
 .shiny-effect {
   position: absolute;
