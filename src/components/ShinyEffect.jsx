@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 const ShinyEffect = ({ left, right, top, size = 500 }) => {
   const positionStyles = {
@@ -19,4 +19,10 @@ const ShinyEffect = ({ left, right, top, size = 500 }) => {
   return <div className="shiny-effect" style={positionStyles}></div>;
 };
 
+ShinyEffect.propTypes = {
+  left: PropTypes.number,
+  right: PropTypes.number,
+  top: PropTypes.number,
+  size: PropTypes.number.isRequired,
+};
 export default ShinyEffect;

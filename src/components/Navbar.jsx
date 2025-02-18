@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
@@ -31,8 +31,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-md z-50">
-      <div className="max-w-[1300px] mx-auto  flex justify-between text-gray-100 text-xl items-center px-12 h-20">
+    <div className="fixed top-0 left-0 w-full bg-opacity-70 backdrop-blur-md z-50 overflow-x-hidden">
+      <div className="max-w-[1300px] mx-auto  flex justify-between text-gray-100 text-xl items-center px-4 md:px-12 h-20">
         <a href="#">J.Doe</a>
         <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
           <li>
@@ -58,7 +58,7 @@ const Navbar = () => {
           initial={false}
           animate={nav ? "open" : "closed"}
           variants={menuVariants}
-          className="fixed left-0 top-0 w-full min-h-screen bg-gray-900 z-40"
+          className="fixed left-0 top-0 w-screen min-h-screen bg-gray-900 z-40"
         >
           <ul className="font-semibold text-4xl space-y-8 mt-24 text-center cursor-pointer ">
             <li>

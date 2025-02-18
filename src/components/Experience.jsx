@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import Reveal from "./Reveal";
 
@@ -33,9 +32,8 @@ const Experience = () => {
       </h1>
       <motion.div className="space-y-8" initial="hidden" animate="visible">
         {experiences.map((experience, index) => (
-          <Reveal>
+          <Reveal key={index}>
             <motion.div
-              key={index}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: false, amount: 0.3 }}
