@@ -1,8 +1,46 @@
-# React + Vite
+# Portfolio Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a reusable **Portfolio Template** built with React, Vite, TailwindCSS, and Framer Motion.
 
-Currently, two official plugins are available:
+## 🛠️ Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** – Frontend framework
+- **Vite** – Build tool
+- **TailwindCSS** – Utility-first CSS framework
+- **Framer Motion** – Animations and transitions
+- **React Icons** – Icon library
+- **React Scroll** – Smooth scrolling between sections
+- **React Type Animation** – Typing animation
+- **Getform** – Form handling for the contact form
+
+## ✨ Features
+
+- Responsive design for mobile and desktop
+- Smooth animations with Framer Motion
+- Modular components for easy customization
+- Optimized build for performance
+
+## 📦 Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## 🚀 Build and Deploy
+
+```bash
+npm run build
+```
+
+## 🔗 Live Demo
+
+Deployed with [Vercel](https://vercel.com).
+
+---
+
+## 🧑‍💻 Author
+
+**Guillaume Sadourny**  
+Aspiring Full Stack Developer  
+[LinkedIn](https://www.linkedin.com/in/guillaume-sadourny/)
